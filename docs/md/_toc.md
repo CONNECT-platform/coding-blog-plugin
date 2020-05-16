@@ -1,1 +1,2 @@
 [Home](/)
+[Hero Images](/hero)
