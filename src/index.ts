@@ -4,7 +4,12 @@ import { Author, Big, Hero, PageHead, Space } from './components';
 import { addGitHubConfig, addSource } from './post';
 
 
-export function codingBlog() {
+export interface CodingBlogPluginOptions {
+  assets?: string[];
+}
+
+
+export function codingBlog(options?: CodingBlogPluginOptions) {
   return function(): ConfigOverride {
     return {
       markdown: {
@@ -14,6 +19,11 @@ export function codingBlog() {
       },
       page: {
         post: [addGitHubConfig(), addSource()]
+      },
+      misc: {
+        coding_blog: {
+          assets: options?.assets || []
+        }
       }
     }
   }

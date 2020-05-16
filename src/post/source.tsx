@@ -10,6 +10,7 @@ export function addSource() {
       base: config.src.base,
       path: file.path,
     };
-    renderer.render(<script>{`window.source = ${JSON.stringify(source)}`}</script>).on(html.head);
+    renderer.render(<script>{`window.source = ${JSON.stringify(source)}`}</script>)
+      .on(html.body.querySelector('#-codedoc-container') || html.head);
   }
 }
