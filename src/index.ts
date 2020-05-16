@@ -1,7 +1,7 @@
 import { ConfigOverride } from '@codedoc/core';
 
 import { Author, Big, Hero, PageHead, Space } from './components';
-import { addGitHubConfig, addSource, addStyles} from './post';
+import { addGitHubConfig, addSource, addStyles, addTwitterMeta, addOGMeta } from './post';
 
 
 export interface CodingBlogPluginOptions {
@@ -18,7 +18,13 @@ export function codingBlog(options?: CodingBlogPluginOptions) {
         }
       },
       page: {
-        post: [addGitHubConfig(), addSource(), addStyles()]
+        post: [
+          addGitHubConfig(),
+          addSource(),
+          addStyles(),
+          addTwitterMeta(),
+          addOGMeta(),
+        ]
       },
       misc: {
         coding_blog: {
