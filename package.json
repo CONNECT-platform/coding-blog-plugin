@@ -1,0 +1,44 @@
+{
+  "name": "@codedoc/coding-blog-plugin",
+  "version": "0.0.1",
+  "description": "A CODEDOC plugin for blogging.",
+  "main": "dist/es5/index.js",
+  "module": "dist/es6/index.js",
+  "types": "dist/es6/index.d.ts",
+  "sdhTransport": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-es5": "tsc -p conf/typescript/es5.json",
+    "build-es6": "tsc -p conf/typescript/es6.json",
+    "build": "npm run build-es5 && npm run build-es6"
+  },
+  "sideEffects": false,
+  "files": [
+    "dist/es6",
+    "dist/es5"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CONNECT-platform/coding-blog-plugin.git"
+  },
+  "keywords": [
+    "doc",
+    "blog",
+    "documentation",
+    "blogging",
+    "codedoc"
+  ],
+  "author": "Eugene Ghanizadeh Khoub <ghanizadeh.eugene@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CONNECT-platform/coding-blog-plugin/issues"
+  },
+  "homepage": "https://github.com/CONNECT-platform/coding-blog-plugin#readme",
+  "peerDependencies": {
+    "@codedoc/core": "^0.1.57"
+  },
+  "devDependencies": {
+    "@codedoc/core": "^0.1.58",
+    "typescript": "^3.9.2"
+  }
+}
