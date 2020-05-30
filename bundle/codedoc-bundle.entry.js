@@ -1,6 +1,7 @@
 import { getRenderer } from '/home/runner/work/coding-blog-plugin/coding-blog-plugin/.codedoc/node_modules/@codedoc/core/dist/es6/transport/renderer.js';
 import { initJssCs } from '/home/runner/work/coding-blog-plugin/coding-blog-plugin/.codedoc/node_modules/@codedoc/core/dist/es6/transport/setup-jss.js';initJssCs();
 import { installTheme } from '/home/runner/work/coding-blog-plugin/coding-blog-plugin/.codedoc/content/theme.ts';installTheme();
+import { countCards } from '/home/runner/work/coding-blog-plugin/coding-blog-plugin/src/components/article-card/count-cards.ts';countCards();
 import { codeSelection } from '/home/runner/work/coding-blog-plugin/coding-blog-plugin/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/selection.js';codeSelection();
 import { sameLineLengthInCodes } from '/home/runner/work/coding-blog-plugin/coding-blog-plugin/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/same-line-length.js';sameLineLengthInCodes();
 import { initHintBox } from '/home/runner/work/coding-blog-plugin/coding-blog-plugin/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-hint/index.js';initHintBox();
@@ -12,20 +13,24 @@ import { loadDeferredIFrames } from '/home/runner/work/coding-blog-plugin/coding
 import { smoothLoading } from '/home/runner/work/coding-blog-plugin/coding-blog-plugin/.codedoc/node_modules/@codedoc/core/dist/es6/transport/smooth-loading.js';smoothLoading();
 import { tocHighlight } from '/home/runner/work/coding-blog-plugin/coding-blog-plugin/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toc-highlight.js';tocHighlight();
 import { postNavSearch } from '/home/runner/work/coding-blog-plugin/coding-blog-plugin/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/search/post-nav/index.js';postNavSearch();
-import { Author } from '/home/runner/work/coding-blog-plugin/coding-blog-plugin/src/components/author/index.tsx';
+import { ArticleCard } from '/home/runner/work/coding-blog-plugin/coding-blog-plugin/src/components/article-card/index.tsx';
 import { ToCPrevNext } from '/home/runner/work/coding-blog-plugin/coding-blog-plugin/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js';
+import { Author } from '/home/runner/work/coding-blog-plugin/coding-blog-plugin/src/components/author/index.tsx';
 import { GithubSearch } from '/home/runner/work/coding-blog-plugin/coding-blog-plugin/.codedoc/node_modules/@codedoc/core/dist/es6/components/misc/github/search.js';
 import { ToCToggle } from '/home/runner/work/coding-blog-plugin/coding-blog-plugin/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js';
 import { DarkModeSwitch } from '/home/runner/work/coding-blog-plugin/coding-blog-plugin/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js';
 import { ConfigTransport } from '/home/runner/work/coding-blog-plugin/coding-blog-plugin/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';
+import { TabSelector } from '/home/runner/work/coding-blog-plugin/coding-blog-plugin/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js';
 
 const components = {
-  'OjkX2E8f1ZDwZq64A9gksw==': Author,
+  'kirgXyOKpGUcVTtMGNZNPw==': ArticleCard,
   'yGj+BsApJm+7rG/qLRy4qw==': ToCPrevNext,
+  'OjkX2E8f1ZDwZq64A9gksw==': Author,
   'SZElPgAGFBlkhr0p0JFwfw==': GithubSearch,
   'R/uKF3kiw5FN/qXQwgZyvQ==': ToCToggle,
   '0Isz95HRV4teCWLkt5BV5Q==': DarkModeSwitch,
-  'pb454kaQbNEgaLB6Jxyx9w==': ConfigTransport
+  'pb454kaQbNEgaLB6Jxyx9w==': ConfigTransport,
+  'CYhYs5vMVDdVPeJ0+jPqeQ==': TabSelector
 };
 
 const renderer = getRenderer();
