@@ -9,6 +9,8 @@ export function addSource() {
     const source = {
       base: config.src.base,
       path: file.path,
+      namespace: config.dest.namespace,
+      title: config.page.title,
     };
 
     const script = <script>{`window.source = ${JSON.stringify(source)}`}</script>;

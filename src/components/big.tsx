@@ -5,7 +5,7 @@ import { CodedocTheme } from '@codedoc/core';
 export const BigStyle = themedStyle<CodedocTheme>(theme => ({
   big: {
     '& *': {
-      fontSize: 24,
+      fontSize: 28,
     },
   }
 }));

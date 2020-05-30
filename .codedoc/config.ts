@@ -3,7 +3,7 @@ import { configuration } from '@codedoc/core';
 
 import { theme } from './theme';
 
-import { codingBlog } from '../src';
+import { codingBlog } from '../src/internal';
 
 
 export const config = /*#__PURE__*/configuration({

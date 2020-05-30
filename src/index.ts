@@ -1,6 +1,7 @@
 import { ConfigOverride } from '@codedoc/core';
 
-import { Author, Big, Hero, PageHead, Space } from './components';
+import { countCards$, countCards } from './components/article-card/count-cards';
+import { Author, ArticleCard, Big, Hero, Title, Space, Watermark } from './components';
 import { addGitHubConfig, addSource, addStyles, addTwitterMeta, addOGMeta } from './post';
 
 
@@ -14,8 +15,11 @@ export function codingBlog(options?: CodingBlogPluginOptions) {
     return {
       markdown: {
         customComponents:  {
-          Author, Big, Hero, PageHead, Space
+          Author, ArticleCard, Big, Hero, Title, Space, Watermark
         }
+      },
+      bundle: {
+        init: [countCards$]
       },
       page: {
         post: [

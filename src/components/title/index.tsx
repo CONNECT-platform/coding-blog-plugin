@@ -2,34 +2,34 @@ import { RendererLike } from '@connectv/html';
 import { ThemedComponentThis } from '@connectv/jss-theme';
 import { CodedocTheme } from '@codedoc/core';
 
-import { PageHeadStyle } from './style';
+import { TitleStyle } from './style';
 
 
-export type PageHeadColorPreset = 'black' | 'white' | 'text' | 'background' | 'primary' | 'primary-contrast';
+export type TitleColorPreset = 'black' | 'white' | 'text' | 'background' | 'primary' | 'primary-contrast';
 
 
-export function isPreset(color: string): color is PageHeadColorPreset {
+export function isPreset(color: string): color is TitleColorPreset {
   return color === 'black' || color === 'white' || color === 'text' ||
          color === 'primary' || color === 'primary-contrast' || color === 'background';
 }
 
 
-export interface PageHeadOptions {
+export interface TitleOptions {
   lead?: string;
-  color?: PageHeadColorPreset | string;
+  color?: TitleColorPreset | string;
   shadow?: string;
   size?: string;
   leadSize?: string;
 }
 
 
-export function PageHead(
+export function Title(
   this: ThemedComponentThis<CodedocTheme>,
-  options: PageHeadOptions, 
+  options: TitleOptions, 
   renderer: RendererLike<any, any>, 
   content: any
 ) {
-  const classes = this.theme.classes(PageHeadStyle);
+  const classes = this.theme.classes(TitleStyle);
   let _color = undefined;
   let _class = undefined;
 
@@ -40,7 +40,7 @@ export function PageHead(
 
   return <h1 class={`${classes.h} ${_class || ''}`}>
     <span style={`${_color?`color: ${_color};`:''} 
-      text-shadow: ${options.shadow || '0 2px 6px #000000C8'}; 
+      text-shadow: ${options.shadow || 'none'}; 
       font-size: ${options.size || '48px'}`
     }>
     {options.lead? 

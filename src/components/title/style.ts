@@ -2,7 +2,7 @@ import { themedStyle } from '@connectv/jss-theme';
 import { CodedocTheme } from '@codedoc/core';
 
 
-export const PageHeadStyle = themedStyle<CodedocTheme>(theme => ({
+export const TitleStyle = themedStyle<CodedocTheme>(theme => ({
   h: {
     '&.white': {color: 'white'},
     '&.black': {color: 'black'},
