@@ -6,7 +6,6 @@ import { CodedocTheme } from '@codedoc/core/transport';
 export const ArticleCardStyle = /*#__PURE__*/themedStyle<CodedocTheme>(theme => ({
   card: {
     display: 'flex',
-    verticalAlign: 'top',
     margin: '8px 0',
     alignItems: 'center',
     textDecoration: 'none !important',
@@ -43,6 +42,7 @@ export const ArticleCardStyle = /*#__PURE__*/themedStyle<CodedocTheme>(theme => 
 
   cardcol: {
     display: 'inline-flex',
+    verticalAlign: 'top',
     alignItems: 'flex-end',
     flexBasis: 'end',
     width: 'calc(50% - 8px)',
