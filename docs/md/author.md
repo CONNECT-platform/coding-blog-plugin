@@ -45,6 +45,27 @@ For automatic inference, name, avatar and GitHub profile of the author will be u
 last commit on the markdown file). The last publish date will also be set to the date of the last commit on
 the markdown file.
 
+> [warning](:Icon) **IMPORTANT**
+>
+> For automatic inference to work, you need to configure your blog's github repository properly, via `.codedoc/config.ts`:
+> ```ts | .codedoc/config.ts
+> import { configuration } from '@codedoc/core';
+> 
+> //...
+> 
+> export const config = /*#__PURE__*/configuration({
+>   //...
+>   misc: {
+>/*!*/     github: {
+>/*!*/       user: 'johndoe',          // --> name of the user on GitHub owning the repo
+>/*!*/       repo: 'my-blog',         // --> name of the repo on GitHub
+>/*!*/     },
+>     // ...
+>   },
+>   //...
+> });
+> ```
+
 > :ToCPrevNext
 
 ---
