@@ -18,6 +18,7 @@ export interface AuthorOptionsDirect {
 
 export interface AuthorOptionsFetch {
   src: 'github';
+  date?: string;
 }
 
 
@@ -74,7 +75,8 @@ export function Author(
                   avatar.next(commit.author.avatar_url || _DefaultAvatar);
                   url.next(commit.author.html_url);
                   name.next(commit.commit.author.name);
-                  date.next(new Date(commit.commit.author.date).toDateString());
+                  const dateString = !!options.date ? options.date : commit.commit.author.date;
+                  date.next(new Date(dateString).toDateString());
                 }
               });
           }
