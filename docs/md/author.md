@@ -66,6 +66,16 @@ the markdown file.
 > });
 > ```
 
+When using automatic inference, you can also override the publish date by providing the `date` attribute:
+
+```md
+> :Author src=github, date=4 Apr 1968
+```
+
+<br>
+
+> :Author src=github, date=4 Apr 1968
+
 > :ToCPrevNext
 
 ---
