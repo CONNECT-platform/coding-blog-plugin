@@ -67,7 +67,6 @@ export const ArticleCardStyle = /*#__PURE__*/themedStyle<CodedocTheme>(theme => 
   img: {
     width: 96,
     height: 96,
-    zIndex: -1,
     backgroundColor: 'white',
     borderRadius: 8,
     backgroundSize: 'cover',
@@ -85,6 +84,7 @@ export const ArticleCardStyle = /*#__PURE__*/themedStyle<CodedocTheme>(theme => 
 
   text: {
     overflow: 'hidden',
+    zIndex: 1,
     '& h1': {
       fontSize: 24,
       margin: 0,
@@ -107,18 +107,9 @@ export const ArticleCardStyle = /*#__PURE__*/themedStyle<CodedocTheme>(theme => 
       height: '75%',
       width: '100%',
       padding: 16,
-      textShadow: `0 0 6px ${theme.light.background}`,
-      background: `linear-gradient(0deg, ${color(theme.light.background).alpha(.65).toString()}, transparent)`,
-      'body.dark &': {
-        textShadow: `0 0 6px ${theme.dark.background}`,
-        background: `linear-gradient(0deg, ${color(theme.dark.background).alpha(.65).toString()}, transparent)`,
-      },
-      '@media (prefers-color-scheme: dark)': {
-        'body:not(.dark-mode-animate)': {
-          textShadow: `0 0 6px ${theme.dark.background}`,
-          background: `linear-gradient(0deg, ${color(theme.dark.background).alpha(.65).toString()}, transparent)`,
-        }
-      },
+      color: theme.dark.text,
+      textShadow: `0 0 6px ${theme.dark.background}`,
+      background: `linear-gradient(0deg, ${color(theme.dark.background).alpha(.65).toString()}, transparent)`,
 
       '& h1': {
         whiteSpace: 'initial',
