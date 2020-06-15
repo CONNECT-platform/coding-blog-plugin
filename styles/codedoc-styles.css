@@ -658,11 +658,14 @@ body.dark .hero-1-0-1[data-mode="light"] {
     right: 0;
     width: calc(50vw - 496px);
     bottom: 96px;
+    overflow: auto;
     position: fixed;
     font-size: 12px;
+    max-height: 45vh;
     border-left: 1px dashed #e0e0e0;
     margin-left: 64px;
     padding-left: 48px;
+    scroll-behavior: initial;
   }
 @media screen and (max-width: 1200px) {
   .contentnav-0-0-12 {
@@ -775,6 +778,10 @@ body.dark hr {
   body:not(.dark-mode-animate) hr {
     border-color: #313131;
   }
+}
+#-codedoc-toc hr {
+  margin: 16px 0;
+  margin-right: 32px;
 }
 blockquote {
   color: #757575;
@@ -1020,6 +1027,11 @@ body.dark code {
     font-size: 24px;
     min-width: 0;
   }
+  .button-0-0-15[disabled] {
+    color: #f5f5f5;
+    border: rgba(66, 66, 66, 0.35);
+    background: rgba(66, 66, 66, 0.35);
+  }
   body.dark .button-0-0-15 {
     color: black;
     background: #9399ff;
@@ -1031,22 +1043,32 @@ body.dark code {
     background: #9399ff;
     border-color: #9399ff;
   }
+  body:not(.dark-mode-animate) .button-0-0-15[disabled] {
+    color: #212121;
+    border: rgba(238, 238, 238, 0.35);
+    background: rgba(238, 238, 238, 0.35);
+  }
 }
-  .button-0-0-15:hover {
+  .button-0-0-15:hover:not([disabled]) {
     color: #363062;
     background: transparent;
     text-decoration: none;
   }
-  body.dark .button-0-0-15:hover {
+  body.dark .button-0-0-15:hover:not([disabled]) {
     color: #9399ff;
     background: transparent;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .button-0-0-15:hover {
+  body:not(.dark-mode-animate) .button-0-0-15:hover:not([disabled]) {
     color: #9399ff;
     background: transparent;
   }
 }
+  body.dark .button-0-0-15[disabled] {
+    color: #212121;
+    border: rgba(238, 238, 238, 0.35);
+    background: rgba(238, 238, 238, 0.35);
+  }
 a.button-0-0-15 {
   height: 28px;
 }
