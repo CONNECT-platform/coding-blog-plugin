@@ -53,6 +53,7 @@ export function collect(conf: PartialConfig, add: (item: Item) => void) {
       date: new Date(commits.latest.date),
       published: new Date(first.date),
       author: authors,
+      content: html.body.innerHTML,
     });
   }
 }
