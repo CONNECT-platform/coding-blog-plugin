@@ -20,7 +20,11 @@ export const config = /*#__PURE__*/configuration({
       base: 'Coding Blog Plugin'
     }
   },
-  plugins: [codingBlog()],
+  plugins: [codingBlog({
+    feed: {
+      url: 'localhost:3000'
+    }
+  })],
   misc: {
     github: {
       user: 'CONNECT-platform',

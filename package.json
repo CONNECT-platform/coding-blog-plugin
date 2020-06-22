@@ -1,6 +1,6 @@
 {
   "name": "@codedoc/coding-blog-plugin",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A CODEDOC plugin for blogging.",
   "main": "dist/es5/index.js",
   "module": "dist/es6/index.js",
@@ -35,10 +35,14 @@
   },
   "homepage": "https://github.com/CONNECT-platform/coding-blog-plugin#readme",
   "peerDependencies": {
-    "@codedoc/core": ">=0.1.59"
+    "@codedoc/core": ">=0.2.5"
   },
   "devDependencies": {
-    "@codedoc/core": "^0.1.59",
+    "@codedoc/core": "^0.2.5",
     "typescript": "^3.9.2"
+  },
+  "dependencies": {
+    "feed": "^4.2.0",
+    "simple-git": "^2.9.0"
   }
 }
