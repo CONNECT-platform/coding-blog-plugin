@@ -22,7 +22,7 @@ export const config = /*#__PURE__*/configuration({
   },
   plugins: [codingBlog({
     feed: {
-      url: 'https://connect-platform.github.io/'
+      url: 'https://connect-platform.github.io'
     }
   })],
   misc: {
