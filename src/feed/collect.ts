@@ -17,6 +17,7 @@ export function collect(conf: PartialConfig, add: (item: Item) => void) {
     let title = '';
     let description = '';
     let image = '';
+    let content = '';
     let candidate$: HTMLElement | null;
 
     if (candidate$ = html.head.querySelector('meta[property="og:title"]')) {
@@ -31,6 +32,10 @@ export function collect(conf: PartialConfig, add: (item: Item) => void) {
 
     if (candidate$ = html.head.querySelector('meta[property="og:image"]')) {
       image = candidate$.getAttribute('content') || '';
+    }
+
+    if (candidate$ = html.body.querySelector('#-codedoc-container p')) {
+      content = (candidate$.textContent || '') + ' ...';
     }
 
     const commits = await git().log({ file: join(file.root, file.path)});
@@ -53,7 +58,7 @@ export function collect(conf: PartialConfig, add: (item: Item) => void) {
       date: new Date(commits.latest.date),
       published: new Date(first.date),
       author: authors,
-      content: html.body.innerHTML,
+      content,
     });
   }
 }
