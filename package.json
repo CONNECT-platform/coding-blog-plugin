@@ -1,6 +1,6 @@
 {
   "name": "@codedoc/coding-blog-plugin",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "A CODEDOC plugin for blogging.",
   "main": "dist/es5/index.js",
   "module": "dist/es6/index.js",

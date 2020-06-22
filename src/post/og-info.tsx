@@ -29,7 +29,7 @@ export function addOGMeta() {
 
         container$.querySelectorAll('img[data-hero]').forEach(hero$ => {
           if (!src) {
-            const potential = hero$.getAttribute('src') || hero$.getAttribute('data-src') || '';
+            const potential = hero$.getAttribute('data-src') || hero$.getAttribute('src') || '';
             if (URLRegex.test(potential)) src = potential;
           }
         });
