@@ -14,8 +14,9 @@ export function save(config: PartialConfig, items: Item[]) {
     const feed = new Feed({
       title: conf.title,
       copyright: '',
-      id: conf.url,
-      link: conf.url,
+      id: conf.url + build.config.dest.namespace,
+      link: conf.url + build.config.dest.namespace,
+      favicon: build.config.dest.namespace + build.config.page.favicon,
     });
 
     items.forEach(item => feed.addItem(item));

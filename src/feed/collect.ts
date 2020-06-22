@@ -26,7 +26,7 @@ export function collect(conf: PartialConfig, add: (item: Item) => void) {
     }
 
     if (candidate$ = html.head.querySelector('meta[property="og:description"],meta[name="description"]')) {
-      description = candidate$.getAttribute('content') || '';
+      description = candidate$.getAttribute('content') || 'No description';
     }
 
     if (candidate$ = html.head.querySelector('meta[property="og:image"]')) {
@@ -37,7 +37,7 @@ export function collect(conf: PartialConfig, add: (item: Item) => void) {
     const first = commits.all[commits.all.length - 1];
     const authors: {name: string, email: string}[] = [];
     commits.all.forEach(commit => {
-      if (!authors.find(author => author.name === commit.author_name && author.email === commit.author_email))
+      if (!authors.find(author => author.email === commit.author_email))
         authors.push({
           name: commit.author_name,
           email: commit.author_email,
@@ -46,6 +46,7 @@ export function collect(conf: PartialConfig, add: (item: Item) => void) {
 
     add({
       link: url,
+      id: url,
       title,
       description,
       image,
