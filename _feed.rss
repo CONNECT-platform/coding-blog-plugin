@@ -4,30 +4,30 @@
         <title>Coding Blog Plugin</title>
         <link>https://connect-platform.github.io</link>
         <description>undefined</description>
-        <lastBuildDate>Mon, 22 Jun 2020 19:01:24 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 22 Jun 2020 19:09:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <item>
-            <title><![CDATA[Coding Blog Plugin | Article Cards]]></title>
-            <link>https://connect-platform.github.io/coding-blog-plugin/article-card</link>
-            <guid>https://connect-platform.github.io/coding-blog-plugin/article-card</guid>
-            <pubDate>Mon, 22 Jun 2020 18:59:45 GMT</pubDate>
-            <author>ghanizadeh.eugene@gmail.com (Eugene Ghanizadeh Khoub)</author>
-            <enclosure url="https://images.unsplash.com/photo-1532152865523-267662aa4483?w=1990&h=600&fit=crop&crop=bottom" length="0" type="image//photo-1532152865523-267662aa4483"/>
-        </item>
         <item>
             <title><![CDATA[Coding Blog Plugin | Assets]]></title>
             <link>https://connect-platform.github.io/coding-blog-plugin/assets</link>
             <guid>https://connect-platform.github.io/coding-blog-plugin/assets</guid>
-            <pubDate>Mon, 22 Jun 2020 18:59:45 GMT</pubDate>
+            <pubDate>Mon, 22 Jun 2020 19:07:25 GMT</pubDate>
             <author>ghanizadeh.eugene@gmail.com (Eugene Ghanizadeh Khoub)</author>
             <enclosure url="https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=1990&h=600&fit=crop" length="0" type="image//photo-1461360370896-922624d12aa1"/>
+        </item>
+        <item>
+            <title><![CDATA[Coding Blog Plugin | Article Cards]]></title>
+            <link>https://connect-platform.github.io/coding-blog-plugin/article-card</link>
+            <guid>https://connect-platform.github.io/coding-blog-plugin/article-card</guid>
+            <pubDate>Mon, 22 Jun 2020 19:07:25 GMT</pubDate>
+            <author>ghanizadeh.eugene@gmail.com (Eugene Ghanizadeh Khoub)</author>
+            <enclosure url="https://images.unsplash.com/photo-1532152865523-267662aa4483?w=1990&h=600&fit=crop&crop=bottom" length="0" type="image//photo-1532152865523-267662aa4483"/>
         </item>
         <item>
             <title><![CDATA[Coding Blog Plugin | Author Information]]></title>
             <link>https://connect-platform.github.io/coding-blog-plugin/author</link>
             <guid>https://connect-platform.github.io/coding-blog-plugin/author</guid>
-            <pubDate>Mon, 22 Jun 2020 18:59:45 GMT</pubDate>
+            <pubDate>Mon, 22 Jun 2020 19:07:25 GMT</pubDate>
             <author>ghanizadeh.eugene@gmail.com (Eugene Ghanizadeh Khoub)</author>
             <enclosure url="https://images.unsplash.com/photo-1530819568329-97653eafbbfa?w=1990&h=600&fit=crop&crop=bottom" length="0" type="image//photo-1530819568329-97653eafbbfa"/>
         </item>
@@ -35,7 +35,7 @@
             <title><![CDATA[Coding Blog Plugin | Hero Images]]></title>
             <link>https://connect-platform.github.io/coding-blog-plugin/hero</link>
             <guid>https://connect-platform.github.io/coding-blog-plugin/hero</guid>
-            <pubDate>Mon, 22 Jun 2020 18:59:45 GMT</pubDate>
+            <pubDate>Mon, 22 Jun 2020 19:07:25 GMT</pubDate>
             <author>ghanizadeh.eugene@gmail.com (Eugene Ghanizadeh Khoub)</author>
             <enclosure url="https://images.unsplash.com/photo-1533069027836-fa937181a8ce?w=2000&h=600&fit=crop" length="0" type="image//photo-1533069027836-fa937181a8ce"/>
         </item>
@@ -43,7 +43,7 @@
             <title><![CDATA[Coding Blog Plugin]]></title>
             <link>https://connect-platform.github.io/coding-blog-plugin/index</link>
             <guid>https://connect-platform.github.io/coding-blog-plugin/index</guid>
-            <pubDate>Mon, 22 Jun 2020 18:59:45 GMT</pubDate>
+            <pubDate>Mon, 22 Jun 2020 19:07:25 GMT</pubDate>
             <description><![CDATA[A CODEDOC plugin for blogging. Write elegant blogs on programming using Markdown, host on GitHub Pages or coding.blog or any CDN.]]></description>
             <author>ghanizadeh.eugene@gmail.com (Eugene Ghanizadeh Khoub)</author>
             <enclosure url="https://connect-platform.github.io/coding-blog-boilerplate/img/cb-banner-dark.svg" length="0" type="image/svg"/>
@@ -52,7 +52,7 @@
             <title><![CDATA[Coding Blog Plugin | Miscellaneous Components]]></title>
             <link>https://connect-platform.github.io/coding-blog-plugin/misc</link>
             <guid>https://connect-platform.github.io/coding-blog-plugin/misc</guid>
-            <pubDate>Mon, 22 Jun 2020 18:59:45 GMT</pubDate>
+            <pubDate>Mon, 22 Jun 2020 19:07:25 GMT</pubDate>
             <author>ghanizadeh.eugene@gmail.com (Eugene Ghanizadeh Khoub)</author>
             <enclosure url="https://images.unsplash.com/photo-1492540747731-d05a66dc2461?w=1990&h=600&fit=crop" length="0" type="image//photo-1492540747731-d05a66dc2461"/>
         </item>
@@ -60,7 +60,7 @@
             <title><![CDATA[Coding Blog Plugin | Title]]></title>
             <link>https://connect-platform.github.io/coding-blog-plugin/title</link>
             <guid>https://connect-platform.github.io/coding-blog-plugin/title</guid>
-            <pubDate>Mon, 22 Jun 2020 18:59:45 GMT</pubDate>
+            <pubDate>Mon, 22 Jun 2020 19:07:25 GMT</pubDate>
             <author>ghanizadeh.eugene@gmail.com (Eugene Ghanizadeh Khoub)</author>
             <enclosure url="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1990&h=600&fit=crop" length="0" type="image//photo-1504711434969-e33886168f5c"/>
         </item>
