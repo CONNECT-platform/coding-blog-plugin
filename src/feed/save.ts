@@ -16,7 +16,7 @@ export function save(config: PartialConfig, items: Item[]) {
       copyright: '',
       id: conf.url + build.config.dest.namespace,
       link: conf.url + build.config.dest.namespace,
-      favicon: build.config.dest.namespace + build.config.page.favicon,
+      favicon: conf.url + build.config.dest.namespace + build.config.page.favicon,
       description: '',
       feedLinks: {
         json: conf.url + '/_feed.json',

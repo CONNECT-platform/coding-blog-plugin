@@ -18,7 +18,8 @@ export const config = /*#__PURE__*/configuration({
   page: {
     title: {
       base: 'Coding Blog Plugin'
-    }
+    },
+    favicon: '/favicon.ico',
   },
   plugins: [codingBlog({
     feed: {
