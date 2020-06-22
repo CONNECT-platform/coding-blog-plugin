@@ -17,6 +17,12 @@ export function save(config: PartialConfig, items: Item[]) {
       id: conf.url + build.config.dest.namespace,
       link: conf.url + build.config.dest.namespace,
       favicon: build.config.dest.namespace + build.config.page.favicon,
+      description: '',
+      feedLinks: {
+        json: conf.url + '/_feed.json',
+        atom: conf.url + '/_feed.atom',
+        rss: conf.url + '/_feed.rss',
+      }
     });
 
     items.forEach(item => feed.addItem(item));
