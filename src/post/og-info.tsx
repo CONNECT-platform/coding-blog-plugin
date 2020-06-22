@@ -25,24 +25,24 @@ export function addOGMeta() {
     if (!html.head.querySelector('meta[property="og:image"]')) {
       const container$ = html.body.querySelector('#-codedoc-container');
       if (container$) {
-        let img$: HTMLElement | undefined = undefined; 
+        let src: string | undefined = undefined; 
 
         container$.querySelectorAll('img[data-hero]').forEach(hero$ => {
-          if (!img$ && URLRegex.test(hero$.getAttribute('src') || '')) {
-            img$ = hero$ as HTMLElement;
+          if (!src) {
+            const potential = hero$.getAttribute('src') || hero$.getAttribute('data-src') || '';
+            if (URLRegex.test(potential)) src = potential;
           }
         });
 
-        if (!img$) {
+        if (!src) {
           container$.querySelectorAll('img').forEach(hero$ => {
-            if (!img$ && URLRegex.test(hero$.getAttribute('src') || '')) {
-              img$ = hero$ as HTMLElement;
+            if (!src && URLRegex.test(hero$.getAttribute('src') || '')) {
+              src = hero$.getAttribute('src') || '';
             }
           });
         }
 
-        if (img$) {
-          const src = (img$ as HTMLElement).getAttribute('src') || '';
+        if (src) {
           renderer.render(<meta property="og:image" content={src}/>).on(html.head);
         }
       }
