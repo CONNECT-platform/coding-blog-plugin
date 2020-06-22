@@ -1,75 +1,75 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "Coding Blog Plugin",
-    "home_page_url": "localhost:3000",
+    "home_page_url": "https://connect-platform.github.io/",
     "items": [
         {
-            "url": "localhost:3000/coding-blog-plugin/article-card",
+            "url": "https://connect-platform.github.io//coding-blog-plugin/article-card",
             "title": "Coding Blog Plugin | Article Cards",
             "image": "https://images.unsplash.com/photo-1532152865523-267662aa4483?w=1990&h=600&fit=crop&crop=bottom",
-            "date_modified": "2020-06-22T18:45:51.000Z",
-            "date_published": "2020-06-22T18:45:51.000Z",
+            "date_modified": "2020-06-22T18:47:02.000Z",
+            "date_published": "2020-06-22T18:47:02.000Z",
             "author": {
                 "name": "Eugene Ghanizadeh Khoub"
             }
         },
         {
-            "url": "localhost:3000/coding-blog-plugin/assets",
+            "url": "https://connect-platform.github.io//coding-blog-plugin/assets",
             "title": "Coding Blog Plugin | Assets",
             "image": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=1990&h=600&fit=crop",
-            "date_modified": "2020-06-22T18:45:51.000Z",
-            "date_published": "2020-06-22T18:45:51.000Z",
+            "date_modified": "2020-06-22T18:47:02.000Z",
+            "date_published": "2020-06-22T18:47:02.000Z",
             "author": {
                 "name": "Eugene Ghanizadeh Khoub"
             }
         },
         {
-            "url": "localhost:3000/coding-blog-plugin/author",
+            "url": "https://connect-platform.github.io//coding-blog-plugin/author",
             "title": "Coding Blog Plugin | Author Information",
             "image": "https://images.unsplash.com/photo-1530819568329-97653eafbbfa?w=1990&h=600&fit=crop&crop=bottom",
-            "date_modified": "2020-06-22T18:45:51.000Z",
-            "date_published": "2020-06-22T18:45:51.000Z",
+            "date_modified": "2020-06-22T18:47:02.000Z",
+            "date_published": "2020-06-22T18:47:02.000Z",
             "author": {
                 "name": "Eugene Ghanizadeh Khoub"
             }
         },
         {
-            "url": "localhost:3000/coding-blog-plugin/hero",
+            "url": "https://connect-platform.github.io//coding-blog-plugin/hero",
             "title": "Coding Blog Plugin | Hero Images",
             "image": "https://images.unsplash.com/photo-1533069027836-fa937181a8ce?w=2000&h=600&fit=crop",
-            "date_modified": "2020-06-22T18:45:51.000Z",
-            "date_published": "2020-06-22T18:45:51.000Z",
+            "date_modified": "2020-06-22T18:47:02.000Z",
+            "date_published": "2020-06-22T18:47:02.000Z",
             "author": {
                 "name": "Eugene Ghanizadeh Khoub"
             }
         },
         {
-            "url": "localhost:3000/coding-blog-plugin/index",
+            "url": "https://connect-platform.github.io//coding-blog-plugin/index",
             "title": "Coding Blog Plugin",
             "summary": "A CODEDOC plugin for blogging. Write elegant blogs on programming using Markdown, host on GitHub Pages or coding.blog or any CDN.",
             "image": "https://connect-platform.github.io/coding-blog-boilerplate/img/cb-banner-dark.svg",
-            "date_modified": "2020-06-22T18:45:51.000Z",
-            "date_published": "2020-06-22T18:45:51.000Z",
+            "date_modified": "2020-06-22T18:47:02.000Z",
+            "date_published": "2020-06-22T18:47:02.000Z",
             "author": {
                 "name": "Eugene Ghanizadeh Khoub"
             }
         },
         {
-            "url": "localhost:3000/coding-blog-plugin/misc",
+            "url": "https://connect-platform.github.io//coding-blog-plugin/misc",
             "title": "Coding Blog Plugin | Miscellaneous Components",
             "image": "https://images.unsplash.com/photo-1492540747731-d05a66dc2461?w=1990&h=600&fit=crop",
-            "date_modified": "2020-06-22T18:45:51.000Z",
-            "date_published": "2020-06-22T18:45:51.000Z",
+            "date_modified": "2020-06-22T18:47:02.000Z",
+            "date_published": "2020-06-22T18:47:02.000Z",
             "author": {
                 "name": "Eugene Ghanizadeh Khoub"
             }
         },
         {
-            "url": "localhost:3000/coding-blog-plugin/title",
+            "url": "https://connect-platform.github.io//coding-blog-plugin/title",
             "title": "Coding Blog Plugin | Title",
             "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1990&h=600&fit=crop",
-            "date_modified": "2020-06-22T18:45:51.000Z",
-            "date_published": "2020-06-22T18:45:51.000Z",
+            "date_modified": "2020-06-22T18:47:02.000Z",
+            "date_published": "2020-06-22T18:47:02.000Z",
             "author": {
                 "name": "Eugene Ghanizadeh Khoub"
             }
