@@ -1076,53 +1076,53 @@ a.button-0-0-15.icon {
   width: 36px;
   height: 36px;
 }
+  .h-1-0-6.white {
+    color: white;
+  }
+  .h-1-0-6.black {
+    color: black;
+  }
+  .h-1-0-6.primary {
+    color: #363062;
+  }
+  .h-1-0-6.primary-contrast {
+    color: white;
+  }
+  .h-1-0-6.text {
+    color: #424242;
+  }
+  .h-1-0-6.background {
+    color: #f5f5f5;
+  }
+  body.dark .h-1-0-6.background {
+    color: #212121;
+  }
+  body.dark .h-1-0-6.text {
+    color: #eeeeee;
+  }
+@media (prefers-color-scheme: dark) {
+  body:not(.dark-mode-animate) .h-1-0-6.text {
+    color: #eeeeee;
+  }
+}
+  body.dark .h-1-0-6.primary-contrast {
+    color: black;
+  }
+  body.dark .h-1-0-6.primary {
+    color: #9399ff;
+  }
+@media (prefers-color-scheme: dark) {
+  body:not(.dark-mode-animate) .h-1-0-6.primary {
+    color: #9399ff;
+  }
+}
 @media screen and (max-width: 1024px) {
-  .space-1-0-6[data-target="desktop"] {
+  .space-1-0-7[data-target="desktop"] {
     display: none;
   }
 }
 @media screen and (min-width: 1025px) {
-  .space-1-0-6[data-target="mobile"] {
+  .space-1-0-7[data-target="mobile"] {
     display: none;
-  }
-}
-  .h-1-0-7.white {
-    color: white;
-  }
-  .h-1-0-7.black {
-    color: black;
-  }
-  .h-1-0-7.primary {
-    color: #363062;
-  }
-  .h-1-0-7.primary-contrast {
-    color: white;
-  }
-  .h-1-0-7.text {
-    color: #424242;
-  }
-  .h-1-0-7.background {
-    color: #f5f5f5;
-  }
-  body.dark .h-1-0-7.background {
-    color: #212121;
-  }
-  body.dark .h-1-0-7.text {
-    color: #eeeeee;
-  }
-@media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .h-1-0-7.text {
-    color: #eeeeee;
-  }
-}
-  body.dark .h-1-0-7.primary-contrast {
-    color: black;
-  }
-  body.dark .h-1-0-7.primary {
-    color: #9399ff;
-  }
-@media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .h-1-0-7.primary {
-    color: #9399ff;
   }
 }

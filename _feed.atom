@@ -2,15 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://connect-platform.github.io/coding-blog-plugin</id>
     <title>Coding Blog Plugin</title>
-    <updated>2020-06-22T19:41:05.690Z</updated>
+    <updated>2020-06-22T19:43:37.353Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://connect-platform.github.io/coding-blog-plugin"/>
+    <link rel="self" href="https://connect-platform.github.io/_feed.atom"/>
     <icon>/coding-blog-pluginundefined</icon>
     <entry>
         <title type="html"><![CDATA[Coding Blog Plugin | Article Cards]]></title>
         <id>https://connect-platform.github.io/coding-blog-plugin/article-card</id>
         <link href="https://connect-platform.github.io/coding-blog-plugin/article-card"/>
-        <updated>2020-06-22T19:39:24.000Z</updated>
+        <updated>2020-06-22T19:41:48.000Z</updated>
         <content type="html"><![CDATA[It is a common thing to reference your other blog posts in a particular blog post. For example
 you might want to highlight your latest blog posts on your blog's first page. ...]]></content>
         <author>
@@ -18,26 +19,13 @@ you might want to highlight your latest blog posts on your blog's first page. ..
             <email>ghanizadeh.eugene@gmail.com</email>
             <uri/>
         </author>
-        <published>2020-06-22T19:39:24.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coding Blog Plugin | Author Information]]></title>
-        <id>https://connect-platform.github.io/coding-blog-plugin/author</id>
-        <link href="https://connect-platform.github.io/coding-blog-plugin/author"/>
-        <updated>2020-06-22T19:39:24.000Z</updated>
-        <content type="html"><![CDATA[You can easily provide author and publishing (latest publish date) information using Author markdown component: ...]]></content>
-        <author>
-            <name>Eugene Ghanizadeh Khoub</name>
-            <email>ghanizadeh.eugene@gmail.com</email>
-            <uri/>
-        </author>
-        <published>2020-06-22T19:39:24.000Z</published>
+        <published>2020-06-22T19:41:48.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Coding Blog Plugin | Assets]]></title>
         <id>https://connect-platform.github.io/coding-blog-plugin/assets</id>
         <link href="https://connect-platform.github.io/coding-blog-plugin/assets"/>
-        <updated>2020-06-22T19:39:24.000Z</updated>
+        <updated>2020-06-22T19:41:48.000Z</updated>
         <content type="html"><![CDATA[If you want to host your own static assets (images, stylesheets, scripts, etc) and 
 reference them in your blog posts, you need to tell coding.blog's build pipeline
 to pull them from your repo and put them alongside the rest of your content on the CDNs. ...]]></content>
@@ -46,13 +34,26 @@ to pull them from your repo and put them alongside the rest of your content on t
             <email>ghanizadeh.eugene@gmail.com</email>
             <uri/>
         </author>
-        <published>2020-06-22T19:39:24.000Z</published>
+        <published>2020-06-22T19:41:48.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coding Blog Plugin | Author Information]]></title>
+        <id>https://connect-platform.github.io/coding-blog-plugin/author</id>
+        <link href="https://connect-platform.github.io/coding-blog-plugin/author"/>
+        <updated>2020-06-22T19:41:48.000Z</updated>
+        <content type="html"><![CDATA[You can easily provide author and publishing (latest publish date) information using Author markdown component: ...]]></content>
+        <author>
+            <name>Eugene Ghanizadeh Khoub</name>
+            <email>ghanizadeh.eugene@gmail.com</email>
+            <uri/>
+        </author>
+        <published>2020-06-22T19:41:48.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Coding Blog Plugin | Hero Images]]></title>
         <id>https://connect-platform.github.io/coding-blog-plugin/hero</id>
         <link href="https://connect-platform.github.io/coding-blog-plugin/hero"/>
-        <updated>2020-06-22T19:39:24.000Z</updated>
+        <updated>2020-06-22T19:41:48.000Z</updated>
         <content type="html"><![CDATA[Hero images help you quickly establish the general mood of your blog post. You can add
 them to your posts using Hero markdown component: ...]]></content>
         <author>
@@ -60,13 +61,13 @@ them to your posts using Hero markdown component: ...]]></content>
             <email>ghanizadeh.eugene@gmail.com</email>
             <uri/>
         </author>
-        <published>2020-06-22T19:39:24.000Z</published>
+        <published>2020-06-22T19:41:48.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Coding Blog Plugin]]></title>
         <id>https://connect-platform.github.io/coding-blog-plugin/index</id>
         <link href="https://connect-platform.github.io/coding-blog-plugin/index"/>
-        <updated>2020-06-22T19:39:24.000Z</updated>
+        <updated>2020-06-22T19:41:48.000Z</updated>
         <summary type="html"><![CDATA[A CODEDOC plugin for blogging. Write elegant blogs on programming using Markdown, host on GitHub Pages or coding.blog or any CDN.]]></summary>
         <content type="html"><![CDATA[ ...]]></content>
         <author>
@@ -74,26 +75,13 @@ them to your posts using Hero markdown component: ...]]></content>
             <email>ghanizadeh.eugene@gmail.com</email>
             <uri/>
         </author>
-        <published>2020-06-22T19:39:24.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coding Blog Plugin | Miscellaneous Components]]></title>
-        <id>https://connect-platform.github.io/coding-blog-plugin/misc</id>
-        <link href="https://connect-platform.github.io/coding-blog-plugin/misc"/>
-        <updated>2020-06-22T19:39:24.000Z</updated>
-        <content type="html"><![CDATA[The Big component allows you to write bigger texts than usual (that are not titles): ...]]></content>
-        <author>
-            <name>Eugene Ghanizadeh Khoub</name>
-            <email>ghanizadeh.eugene@gmail.com</email>
-            <uri/>
-        </author>
-        <published>2020-06-22T19:39:24.000Z</published>
+        <published>2020-06-22T19:41:48.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Coding Blog Plugin | Title]]></title>
         <id>https://connect-platform.github.io/coding-blog-plugin/title</id>
         <link href="https://connect-platform.github.io/coding-blog-plugin/title"/>
-        <updated>2020-06-22T19:39:24.000Z</updated>
+        <updated>2020-06-22T19:41:48.000Z</updated>
         <content type="html"><![CDATA[The Title component is useful for the title of the page. It will be shown in a prominent
 manner, will be picked up by CODEDOC's automatic title guessing mechanism, but will not show-up
 in the content navigation list: ...]]></content>
@@ -102,6 +90,19 @@ in the content navigation list: ...]]></content>
             <email>ghanizadeh.eugene@gmail.com</email>
             <uri/>
         </author>
-        <published>2020-06-22T19:39:24.000Z</published>
+        <published>2020-06-22T19:41:48.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coding Blog Plugin | Miscellaneous Components]]></title>
+        <id>https://connect-platform.github.io/coding-blog-plugin/misc</id>
+        <link href="https://connect-platform.github.io/coding-blog-plugin/misc"/>
+        <updated>2020-06-22T19:41:48.000Z</updated>
+        <content type="html"><![CDATA[The Big component allows you to write bigger texts than usual (that are not titles): ...]]></content>
+        <author>
+            <name>Eugene Ghanizadeh Khoub</name>
+            <email>ghanizadeh.eugene@gmail.com</email>
+            <uri/>
+        </author>
+        <published>2020-06-22T19:41:48.000Z</published>
     </entry>
 </feed>
