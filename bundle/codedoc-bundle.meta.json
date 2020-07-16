@@ -69,24 +69,14 @@
       "name": "postNavSearch",
       "filename": "/home/runner/work/coding-blog-plugin/coding-blog-plugin/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/search/post-nav/index.js",
       "hash": "RFTfX4uN4pAlKx9IM2jUvg=="
+    },
+    {
+      "name": "copyLineLinks",
+      "filename": "/home/runner/work/coding-blog-plugin/coding-blog-plugin/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-links/copy-line-link.js",
+      "hash": "xZIOdYXazfhBvbzA/GjLoA=="
     }
   ],
   "components": [
-    {
-      "name": "ArticleCard",
-      "filename": "/home/runner/work/coding-blog-plugin/coding-blog-plugin/src/components/article-card/index.tsx",
-      "hash": "kirgXyOKpGUcVTtMGNZNPw=="
-    },
-    {
-      "name": "ToCPrevNext",
-      "filename": "/home/runner/work/coding-blog-plugin/coding-blog-plugin/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js",
-      "hash": "yGj+BsApJm+7rG/qLRy4qw=="
-    },
-    {
-      "name": "Author",
-      "filename": "/home/runner/work/coding-blog-plugin/coding-blog-plugin/src/components/author/index.tsx",
-      "hash": "OjkX2E8f1ZDwZq64A9gksw=="
-    },
     {
       "name": "GithubSearch",
       "filename": "/home/runner/work/coding-blog-plugin/coding-blog-plugin/.codedoc/node_modules/@codedoc/core/dist/es6/components/misc/github/search.js",
@@ -106,6 +96,21 @@
       "name": "ConfigTransport",
       "filename": "/home/runner/work/coding-blog-plugin/coding-blog-plugin/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js",
       "hash": "pb454kaQbNEgaLB6Jxyx9w=="
+    },
+    {
+      "name": "ArticleCard",
+      "filename": "/home/runner/work/coding-blog-plugin/coding-blog-plugin/src/components/article-card/index.tsx",
+      "hash": "kirgXyOKpGUcVTtMGNZNPw=="
+    },
+    {
+      "name": "ToCPrevNext",
+      "filename": "/home/runner/work/coding-blog-plugin/coding-blog-plugin/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js",
+      "hash": "yGj+BsApJm+7rG/qLRy4qw=="
+    },
+    {
+      "name": "Author",
+      "filename": "/home/runner/work/coding-blog-plugin/coding-blog-plugin/src/components/author/index.tsx",
+      "hash": "OjkX2E8f1ZDwZq64A9gksw=="
     },
     {
       "name": "TabSelector",
