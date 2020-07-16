@@ -61,6 +61,10 @@ Most importantly, a set of **CODEDOC** components specifically for blogging:
 
 > :ArticleCard src=/article-card, style=box
 
+> :ArticleCard src=/tags, style=box
+
+> :ArticleCard src=/rss, style=box
+
 > :ArticleCard src=/misc, style=box
 
 It also provides stylesheets for making your posts more _blog-looking_, plugs in post-processors

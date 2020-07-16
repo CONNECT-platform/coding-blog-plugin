@@ -4,6 +4,7 @@ import { CodedocConfig } from "@codedoc/core";
 export interface FeedConfig {
   url: string;
   title: string;
+  exclude?: string[];
 }
 
 

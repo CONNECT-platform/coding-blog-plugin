@@ -3,5 +3,7 @@
 [Titles](/title)
 [Author Info](/author)
 [Article Cards](/article-card)
+[Tags](/tags)
+[RSS](/rss)
 [Miscellaneous](/misc)
 [Assets](/assets)

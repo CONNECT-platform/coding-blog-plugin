@@ -10,6 +10,9 @@ import { PartialConfig } from './config';
 
 export function collect(conf: PartialConfig, add: (item: Item) => void) {
   return async (html: HTMLDocument, file: File<Compiled>, config: CodedocConfig) => {
+    if (file.path === '404.md' || file.path === 'index.md' || conf.exclude && conf.exclude.includes(file.path)) {
+      return;
+    }
     const url = `${conf.url}${config.dest.namespace}/${
       file.path.substr(0, file.path.length - parse(file.path).ext.length)
     }`;
@@ -55,9 +58,9 @@ export function collect(conf: PartialConfig, add: (item: Item) => void) {
       title,
       description,
       image,
-      date: new Date(commits.latest.date),
-      published: new Date(first.date),
-      author: authors,
+      date: commits && commits.latest ? new Date(commits?.latest?.date) : new Date(),
+      published: first ? new Date(first.date) : new Date(),
+      author: authors.length === 0? [{name: 'Anonymous', email: 'unknown'}]: authors,
       content,
     });
   }

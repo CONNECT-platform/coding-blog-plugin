@@ -5,3 +5,4 @@ export { ArticleCard$ as ArticleCard } from './article-card';
 export { Big } from './big';
 export { Space } from './space';
 export { Watermark } from './watermark';
+export { Tag } from './tag';

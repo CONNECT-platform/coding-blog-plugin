@@ -1,9 +1,10 @@
 import { ConfigOverride } from '@codedoc/core';
 
-import { countCards$, countCards } from './components/article-card/count-cards';
-import { Author, ArticleCard, Big, Hero, Title, Space, Watermark } from './components';
+import { countCards$ } from './components/article-card/count-cards';
+import { Author, ArticleCard, Big, Hero, Title, Space, Watermark, Tag } from './components';
 import { addGitHubConfig, addSource, addStyles, addTwitterMeta, addOGMeta } from './post';
 import { PartialFeedConfig, feed } from './feed';
+import { addTagMeta } from './components/tag/post';
 
 
 export interface CodingBlogPluginOptions {
@@ -19,6 +20,9 @@ export function codingBlog(options?: CodingBlogPluginOptions) {
       markdown: {
         customComponents:  {
           Author, ArticleCard, Big, Hero, Title, Space, Watermark
+        },
+        customInlineComponents: {
+          Tag
         }
       },
       bundle: {
@@ -31,6 +35,7 @@ export function codingBlog(options?: CodingBlogPluginOptions) {
           addStyles(),
           addTwitterMeta(),
           addOGMeta(),
+          addTagMeta(),
           ..._feed ? [_feed.collect] : []
         ]
       },
