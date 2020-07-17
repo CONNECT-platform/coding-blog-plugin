@@ -10,22 +10,10 @@
             "url": "https://connect-platform.github.io/coding-blog-plugin/article-card",
             "title": "Coding Blog Plugin | Article Cards",
             "image": "https://images.unsplash.com/photo-1532152865523-267662aa4483?w=1990&h=600&fit=crop&crop=bottom",
-            "date_modified": "2020-07-16T19:47:37.000Z",
-            "date_published": "2020-07-16T19:47:37.000Z",
+            "date_modified": "2020-07-17T10:35:32.000Z",
+            "date_published": "2020-07-17T10:35:32.000Z",
             "author": {
-                "name": "Eugene Ghanizadeh Khoub"
-            }
-        },
-        {
-            "id": "https://connect-platform.github.io/coding-blog-plugin/assets",
-            "content_html": "If you want to host your own static assets (images, stylesheets, scripts, etc) and \nreference them in your blog posts, you need to tell coding.blog's build pipeline\nto pull them from your repo and put them alongside the rest of your content on the CDNs. ...",
-            "url": "https://connect-platform.github.io/coding-blog-plugin/assets",
-            "title": "Coding Blog Plugin | Assets",
-            "image": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=1990&h=600&fit=crop",
-            "date_modified": "2020-07-16T19:47:37.000Z",
-            "date_published": "2020-07-16T19:47:37.000Z",
-            "author": {
-                "name": "Eugene Ghanizadeh Khoub"
+                "name": "Eugene Ghanizadeh"
             }
         },
         {
@@ -34,10 +22,22 @@
             "url": "https://connect-platform.github.io/coding-blog-plugin/author",
             "title": "Coding Blog Plugin | Author Information",
             "image": "https://images.unsplash.com/photo-1530819568329-97653eafbbfa?w=1990&h=600&fit=crop&crop=bottom",
-            "date_modified": "2020-07-16T19:47:37.000Z",
-            "date_published": "2020-07-16T19:47:37.000Z",
+            "date_modified": "2020-07-17T10:35:32.000Z",
+            "date_published": "2020-07-17T10:35:32.000Z",
             "author": {
-                "name": "Eugene Ghanizadeh Khoub"
+                "name": "Eugene Ghanizadeh"
+            }
+        },
+        {
+            "id": "https://connect-platform.github.io/coding-blog-plugin/assets",
+            "content_html": "If you want to host your own static assets (images, stylesheets, scripts, etc) and \nreference them in your blog posts, you need to tell coding.blog's build pipeline\nto pull them from your repo and put them alongside the rest of your content on the CDNs. ...",
+            "url": "https://connect-platform.github.io/coding-blog-plugin/assets",
+            "title": "Coding Blog Plugin | Assets",
+            "image": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=1990&h=600&fit=crop",
+            "date_modified": "2020-07-17T10:35:32.000Z",
+            "date_published": "2020-07-17T10:35:32.000Z",
+            "author": {
+                "name": "Eugene Ghanizadeh"
             }
         },
         {
@@ -46,10 +46,10 @@
             "url": "https://connect-platform.github.io/coding-blog-plugin/hero",
             "title": "Coding Blog Plugin | Hero Images",
             "image": "https://images.unsplash.com/photo-1533069027836-fa937181a8ce?w=2000&h=600&fit=crop",
-            "date_modified": "2020-07-16T19:47:37.000Z",
-            "date_published": "2020-07-16T19:47:37.000Z",
+            "date_modified": "2020-07-17T10:35:32.000Z",
+            "date_published": "2020-07-17T10:35:32.000Z",
             "author": {
-                "name": "Eugene Ghanizadeh Khoub"
+                "name": "Eugene Ghanizadeh"
             }
         },
         {
@@ -58,10 +58,10 @@
             "url": "https://connect-platform.github.io/coding-blog-plugin/misc",
             "title": "Coding Blog Plugin | Miscellaneous Components",
             "image": "https://images.unsplash.com/photo-1492540747731-d05a66dc2461?w=1990&h=600&fit=crop",
-            "date_modified": "2020-07-16T19:47:37.000Z",
-            "date_published": "2020-07-16T19:47:37.000Z",
+            "date_modified": "2020-07-17T10:35:32.000Z",
+            "date_published": "2020-07-17T10:35:32.000Z",
             "author": {
-                "name": "Eugene Ghanizadeh Khoub"
+                "name": "Eugene Ghanizadeh"
             }
         },
         {
@@ -70,10 +70,10 @@
             "url": "https://connect-platform.github.io/coding-blog-plugin/rss",
             "title": "Coding Blog Plugin | RSS",
             "image": "https://images.unsplash.com/photo-1485579149621-3123dd979885?w=1990&h=600&fit=crop&crop=top",
-            "date_modified": "2020-07-16T19:47:37.000Z",
-            "date_published": "2020-07-16T19:47:37.000Z",
+            "date_modified": "2020-07-17T10:35:32.000Z",
+            "date_published": "2020-07-17T10:35:32.000Z",
             "author": {
-                "name": "Eugene Ghanizadeh Khoub"
+                "name": "Eugene Ghanizadeh"
             }
         },
         {
@@ -82,10 +82,10 @@
             "url": "https://connect-platform.github.io/coding-blog-plugin/tags",
             "title": "Coding Blog Plugin | Tags",
             "image": "https://images.unsplash.com/photo-1577634667308-ee53b03ee1c9?w=1990&h=600&fit=crop",
-            "date_modified": "2020-07-16T19:47:37.000Z",
-            "date_published": "2020-07-16T19:47:37.000Z",
+            "date_modified": "2020-07-17T10:35:32.000Z",
+            "date_published": "2020-07-17T10:35:32.000Z",
             "author": {
-                "name": "Eugene Ghanizadeh Khoub"
+                "name": "Eugene Ghanizadeh"
             }
         },
         {
@@ -94,10 +94,10 @@
             "url": "https://connect-platform.github.io/coding-blog-plugin/title",
             "title": "Coding Blog Plugin | Title",
             "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1990&h=600&fit=crop",
-            "date_modified": "2020-07-16T19:47:37.000Z",
-            "date_published": "2020-07-16T19:47:37.000Z",
+            "date_modified": "2020-07-17T10:35:32.000Z",
+            "date_published": "2020-07-17T10:35:32.000Z",
             "author": {
-                "name": "Eugene Ghanizadeh Khoub"
+                "name": "Eugene Ghanizadeh"
             }
         }
     ]
