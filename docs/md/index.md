@@ -88,8 +88,9 @@ If you already have a blog repo based on **CODEDOC**, you can install this plugi
 **STEP 1**\
 Install the plugin:
 ```bash
-cd .codedoc && npm i @codedoc/coding-blog-plugin
+codedoc install @codedoc/coding-blog-plugin
 ```
+
 > :Buttons
 > > :CopyButton
 
