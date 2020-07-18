@@ -13,7 +13,7 @@ You can add tags to any part of your blog-post, using the inline `Tag` component
 <br>
 
 In tags, whitespaces are replaced by underlines, and any characters beyond letters (uppercase or lowercase),
-digits, underline and dash. All extra characters will get removed automatically from the tag. Additionally,
+digits, underline and dash will get removed automatically from the tag. Additionally,
 you may or may not include the `#` character at the beginning, the `Tag` component will add it if it is absent.
 
 Tags will be added to `<meta name='keywords'/>` header. They will also be added to a specific
