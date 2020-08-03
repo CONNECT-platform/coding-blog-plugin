@@ -1218,24 +1218,134 @@ a.button-0-0-15.icon {
   width: 36px;
   height: 36px;
 }
+  .small-1-0-6 * {
+    font-size: 12px;
+  }
+  .center-1-0-7 {
+    text-align: center;
+  }
+  .quote-1-0-8 {
+    padding: 0 56px;
+    font-size: 20px;
+  }
+  .text-1-0-9 {
+    padding: 1px 0;
+    position: relative;
+  }
+  .text-1-0-9 .begin, .text-1-0-9 .end {
+    opacity: 0.25;
+    position: absolute;
+    font-size: 48px;
+  }
+  .text-1-0-9 .begin.begin, .text-1-0-9 .end.begin {
+    top: 8px;
+    left: -56px;
+    transform: rotate(180deg);
+  }
+  .text-1-0-9 .begin.end, .text-1-0-9 .end.end {
+    right: -56px;
+    bottom: 8px;
+  }
+  .source-1-0-10 {
+    font-style: italic;
+    text-align: right;
+  }
 @media screen and (max-width: 1024px) {
-  .space-1-0-6[data-target="desktop"] {
+  .space-1-0-11[data-target="desktop"] {
     display: none;
   }
 }
 @media screen and (min-width: 1025px) {
-  .space-1-0-6[data-target="mobile"] {
+  .space-1-0-11[data-target="mobile"] {
     display: none;
   }
 }
-  .tag-1-0-7 {
+  .holder-1-0-12 {
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+  }
+  .spinner-1-0-13 {
+    width: 100%;
+    height: 100%;
+    animation: keyframes-rotate-1-0-14 1.17s linear infinite;
+  }
+@keyframes keyframes-rotate-1-0-14 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+  .path-1-0-15 {
+    r: 30px;
+    cx: 33px;
+    cy: 33px;
+    fill: none;
+    stroke: white;
+    animation: keyframes-dash-1-0-16 1s ease-in-out infinite;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-dasharray: 200;
+    transform-origin: 33px 33px !important;
+    stroke-dashoffset: 0;
+  }
+  .path-1-0-15.black {
+    stroke: black;
+  }
+  body.dark-mode-animate .path-1-0-15 {
+    transition: color .3s;
+  }
+  .path-1-0-15.primary {
+    stroke: #363062;
+  }
+  .path-1-0-15.primary-contrast {
+    stroke: white;
+  }
+  .path-1-0-15.background {
+    stroke: #f5f5f5;
+  }
+  .path-1-0-15.text {
+    stroke: #424242;
+  }
+  body.dark .path-1-0-15.text {
+    stroke: #eeeeee;
+  }
+  body.dark .path-1-0-15.background {
+    stroke: #212121;
+  }
+  body.dark .path-1-0-15.primary-contrast {
+    stroke: black;
+  }
+  body.dark .path-1-0-15.primary {
+    stroke: #9399ff;
+  }
+@keyframes keyframes-dash-1-0-16 {
+  0% {
+    stroke-dashoffset: 200;
+  }
+  50% {
+    transform: rotate(45deg);
+    stroke-dashoffset: 50;
+  }
+  100% {
+    transform: rotate(360deg);
+    stroke-dashoffset: 200;
+  }
+}
+  .tag-1-0-17 {
     cursor: pointer;
     font-weight: bold;
   }
-  .tag-1-0-7 code {
+  .tag-1-0-17 code {
     background: transparent !important;
   }
-  .indicator-1-0-8 {
+  .indicator-1-0-18 {
     width: 20px;
     height: 20px;
     display: inline-flex;
@@ -1247,51 +1357,51 @@ a.button-0-0-15.icon {
     border-radius: 4px;
     justify-content: center;
   }
-  body.dark .indicator-1-0-8 {
+  body.dark .indicator-1-0-18 {
     background: #313131;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .indicator-1-0-8 {
+  body:not(.dark-mode-animate) .indicator-1-0-18 {
     background: #313131;
   }
 }
-  .h-1-0-9.white {
+  .h-1-0-19.white {
     color: white;
   }
-  .h-1-0-9.black {
+  .h-1-0-19.black {
     color: black;
   }
-  .h-1-0-9.primary {
+  .h-1-0-19.primary {
     color: #363062;
   }
-  .h-1-0-9.primary-contrast {
+  .h-1-0-19.primary-contrast {
     color: white;
   }
-  .h-1-0-9.text {
+  .h-1-0-19.text {
     color: #424242;
   }
-  .h-1-0-9.background {
+  .h-1-0-19.background {
     color: #f5f5f5;
   }
-  body.dark .h-1-0-9.background {
+  body.dark .h-1-0-19.background {
     color: #212121;
   }
-  body.dark .h-1-0-9.text {
+  body.dark .h-1-0-19.text {
     color: #eeeeee;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .h-1-0-9.text {
+  body:not(.dark-mode-animate) .h-1-0-19.text {
     color: #eeeeee;
   }
 }
-  body.dark .h-1-0-9.primary-contrast {
+  body.dark .h-1-0-19.primary-contrast {
     color: black;
   }
-  body.dark .h-1-0-9.primary {
+  body.dark .h-1-0-19.primary {
     color: #9399ff;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .h-1-0-9.primary {
+  body:not(.dark-mode-animate) .h-1-0-19.primary {
     color: #9399ff;
   }
 }
