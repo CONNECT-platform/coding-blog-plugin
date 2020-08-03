@@ -133,8 +133,6 @@ values, and would only appear on the target device defined:
 > :Space space=48px, target=desktop      <!--> This guy only appears on desktops -->
 ```
 
-> :ToCPrevNext
-
 ---
 
 ## Moved Pages
@@ -154,6 +152,8 @@ You can see this in action on this link (which redirects back to this page):
 <div>
 <a href="/moved-sample" target="_blank">Moved Sample</a>
 </div>
+
+> :ToCPrevNext
 
 ---
 
