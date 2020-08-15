@@ -137,7 +137,7 @@ values, and would only appear on the target device defined:
 
 ## Moved Pages
 
-It sometimes happen that you want to move pages to a different URL (for example there is a typo in their address).
+It sometimes happen that you want to move pages to a different URL (for example there is a typo in its address).
 In such a case, maintain the old markdown file (with the same pathname), and add a `Moved` component
 to it, pointing to the new new URL:
 
