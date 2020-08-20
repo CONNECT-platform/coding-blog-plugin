@@ -505,6 +505,11 @@ body.dark code {
     opacity: 0.5;
     transform: none;
   }
+@media screen and (max-width: 1200px) {
+  .anchor-0-0-8 {
+    display: none;
+  }
+}
   .heading-0-0-7:hover .anchor-0-0-8:hover {
     opacity: 1;
   }
