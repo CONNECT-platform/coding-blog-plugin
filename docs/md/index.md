@@ -75,8 +75,23 @@ way of [configuring your assets for hosting on `coding.blog`](/assets).
 
 ## Getting Started
 
-The recommended way of creating a blog for `coding.blog` is to [fork this repository](https://github.com/CONNECT-platform/coding-blog-boilerplate/fork), as it has all the necessary plugins and dependencies (including this plugin)
+The recommended way of creating a blog for `coding.blog` is to [use this template](https://github.com/CONNECT-platform/coding-blog-boilerplate/generate), as it has all the necessary plugins and dependencies (including this plugin)
 pre-installed, and is pre-configured for easy deployment to GitHub Pages and `coding.blog`.
+
+> [warning](:Icon) **IMPORTANT**
+>
+> Note that you need to change some configurations when you create your blog repo using the linked template.
+> For that, simply do this:
+> ```bash
+> cd <repo-folder>
+> codedoc install           # --> install required dependencies
+> codedoc check             # --> check configuration against environment to see what needs to change
+> ```
+> `codedoc check` will inform you of configurations that you most probably need to change, with instructions
+> on how to change them.
+>
+> > :Buttons
+> > > :Button label=Learn More, url=https://codedoc.cc/docs/cli#forking-or-using-templates
 
 <br>
 
