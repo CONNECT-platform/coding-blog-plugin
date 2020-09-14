@@ -21,7 +21,7 @@ jobs:
         tag_name: "v%s"
         tag_message: "v%s"
         commit_pattern: "^Release (\\S+)"
-        workspace: ".codedoc"
+        workspace: "."
       env: # Documentation of environment variables https://github.com/marketplace/actions/publish-to-npm#environment-variables
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this as is, it's automatically generated
         NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }} # Must be set in repo settings
