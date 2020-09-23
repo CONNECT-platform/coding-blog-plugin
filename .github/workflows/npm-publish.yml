@@ -1,0 +1,31 @@
+# Based on template copied from https://github.com/marketplace/actions/publish-to-npm#usage
+name: npm-publish
+on:
+  push:
+    branches:
+      - master
+jobs:
+  npm-publish:
+    name: npm-publish
+    runs-on: ubuntu-latest
+    steps:
+    - name: To be completed
+      run: echo "This workflow needs to be completed"
+    #- name: Checkout repository
+    #  uses: actions/checkout@master
+    #- name: Set up Node.js
+    #  uses: actions/setup-node@master
+    #  with:
+    #    node-version: 12.0.0
+    #- name: Build the package
+    #  run: npm run build
+    #- name: Publish if version has been updated
+    #  uses: pascalgn/npm-publish-action@1.3.3
+    #  with: # Documentation of inputs https://github.com/marketplace/actions/publish-to-npm#inputs
+    #    tag_name: "v%s"
+    #    tag_message: "v%s"
+    #    commit_pattern: "^Release (\\S+)"
+    #    workspace: "."
+    #  env: # Documentation of environment variables https://github.com/marketplace/actions/publish-to-npm#environment-variables
+    #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this as is, it's automatically generated
+    #    NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }} # Must be set in repo settings
