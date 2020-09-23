@@ -34,7 +34,7 @@ interface CommitType {
       name: string;
     }
   },
-  author: {
+  author?: {
     avatar_url: string;
     html_url: string;
   }
@@ -72,8 +72,8 @@ export function Author(
               .subscribe(res => {
                 if (res.length) {
                   const commit = res[0];
-                  avatar.next(commit.author.avatar_url || _DefaultAvatar);
-                  url.next(commit.author.html_url);
+                  avatar.next(commit.author?.avatar_url || _DefaultAvatar);
+                  url.next(commit.author?.html_url || '');
                   name.next(commit.commit.author.name);
                   const dateString = !!options.date ? options.date : commit.commit.author.date;
                   date.next(new Date(dateString).toDateString());
