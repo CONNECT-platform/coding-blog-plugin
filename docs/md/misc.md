@@ -69,13 +69,13 @@ You can use the `Quote` component to quote from other people:
 > :Quote from=Douglas Adams
 >
 > A common mistake that people make when trying to design something completely foolproof
-> is to underestimate the inenuitiy of complete fools.
+> is to underestimate the ingenuity of complete fools.
 ```
 
 > :Quote from=Douglas Adams
 >
 > A common mistake that people make when trying to design something completely foolproof
-> is to underestimate the inenuitiy of complete fools.
+> is to underestimate the ingenuity of complete fools.
 
 The `from` argument is optional and can be omitted.
 
