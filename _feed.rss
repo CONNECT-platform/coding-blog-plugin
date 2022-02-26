@@ -4,7 +4,7 @@
         <title>Coding Blog Plugin</title>
         <link>https://connect-platform.github.io/coding-blog-plugin</link>
         <description></description>
-        <lastBuildDate>Wed, 30 Jun 2021 06:39:56 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 26 Feb 2022 08:54:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://connect-platform.github.io/_feed.rss" rel="self" type="application/rss+xml"/>
@@ -12,7 +12,7 @@
             <title><![CDATA[Coding Blog Plugin | Article Cards]]></title>
             <link>https://connect-platform.github.io/coding-blog-plugin/article-card</link>
             <guid>https://connect-platform.github.io/coding-blog-plugin/article-card</guid>
-            <pubDate>Wed, 30 Jun 2021 06:38:31 GMT</pubDate>
+            <pubDate>Sat, 26 Feb 2022 08:52:53 GMT</pubDate>
             <content:encoded><![CDATA[It is a common thing to reference your other blog posts in a particular blog post. For example
 you might want to highlight your latest blog posts on your blog's first page. ...]]></content:encoded>
             <author>ghanizadeh.eugene@gmail.com (Eugene Ghanizadeh)</author>
@@ -22,7 +22,7 @@ you might want to highlight your latest blog posts on your blog's first page. ..
             <title><![CDATA[Coding Blog Plugin | Assets]]></title>
             <link>https://connect-platform.github.io/coding-blog-plugin/assets</link>
             <guid>https://connect-platform.github.io/coding-blog-plugin/assets</guid>
-            <pubDate>Wed, 30 Jun 2021 06:38:31 GMT</pubDate>
+            <pubDate>Sat, 26 Feb 2022 08:52:53 GMT</pubDate>
             <content:encoded><![CDATA[If you want to host your own static assets (images, stylesheets, scripts, etc) and 
 reference them in your blog posts, you need to tell coding.blog's build pipeline
 to pull them from your repo and put them alongside the rest of your content on the CDNs. ...]]></content:encoded>
@@ -33,7 +33,7 @@ to pull them from your repo and put them alongside the rest of your content on t
             <title><![CDATA[Coding Blog Plugin | Author Information]]></title>
             <link>https://connect-platform.github.io/coding-blog-plugin/author</link>
             <guid>https://connect-platform.github.io/coding-blog-plugin/author</guid>
-            <pubDate>Wed, 30 Jun 2021 06:38:31 GMT</pubDate>
+            <pubDate>Sat, 26 Feb 2022 08:52:53 GMT</pubDate>
             <content:encoded><![CDATA[You can easily provide author and publishing (latest publish date) information using Author markdown component: ...]]></content:encoded>
             <author>ghanizadeh.eugene@gmail.com (Eugene Ghanizadeh)</author>
             <enclosure url="https://images.unsplash.com/photo-1530819568329-97653eafbbfa?w=1990&h=600&fit=crop&crop=bottom" length="0" type="image//photo-1530819568329-97653eafbbfa"/>
@@ -42,7 +42,7 @@ to pull them from your repo and put them alongside the rest of your content on t
             <title><![CDATA[Coding Blog Plugin | Hero Images]]></title>
             <link>https://connect-platform.github.io/coding-blog-plugin/hero</link>
             <guid>https://connect-platform.github.io/coding-blog-plugin/hero</guid>
-            <pubDate>Wed, 30 Jun 2021 06:38:31 GMT</pubDate>
+            <pubDate>Sat, 26 Feb 2022 08:52:53 GMT</pubDate>
             <content:encoded><![CDATA[Hero images help you quickly establish the general mood of your blog post. You can add
 them to your posts using Hero markdown component: ...]]></content:encoded>
             <author>ghanizadeh.eugene@gmail.com (Eugene Ghanizadeh)</author>
@@ -52,7 +52,7 @@ them to your posts using Hero markdown component: ...]]></content:encoded>
             <title><![CDATA[Coding Blog Plugin | Miscellaneous Components]]></title>
             <link>https://connect-platform.github.io/coding-blog-plugin/misc</link>
             <guid>https://connect-platform.github.io/coding-blog-plugin/misc</guid>
-            <pubDate>Wed, 30 Jun 2021 06:38:31 GMT</pubDate>
+            <pubDate>Sat, 26 Feb 2022 08:52:53 GMT</pubDate>
             <content:encoded><![CDATA[The Big component allows you to write bigger texts than usual (that are not titles): ...]]></content:encoded>
             <author>ghanizadeh.eugene@gmail.com (Eugene Ghanizadeh)</author>
             <enclosure url="https://images.unsplash.com/photo-1492540747731-d05a66dc2461?w=1990&h=600&fit=crop" length="0" type="image//photo-1492540747731-d05a66dc2461"/>
@@ -61,7 +61,7 @@ them to your posts using Hero markdown component: ...]]></content:encoded>
             <title><![CDATA[Coding Blog Plugin]]></title>
             <link>https://connect-platform.github.io/coding-blog-plugin/moved-sample</link>
             <guid>https://connect-platform.github.io/coding-blog-plugin/moved-sample</guid>
-            <pubDate>Wed, 30 Jun 2021 06:38:31 GMT</pubDate>
+            <pubDate>Sat, 26 Feb 2022 08:52:53 GMT</pubDate>
             <content:encoded><![CDATA[This page has moved and is supposed to not be here! You are not even supposed to be able to read this!
 So you should be redirected to an actual page of these documents now. If you are not, and you can clearly
 read this text without any obstruction, then something has went terribly wrong, and it would be exceedingly
@@ -72,7 +72,7 @@ nice of you to contact the developer maintaining this project of the situation (
             <title><![CDATA[Coding Blog Plugin | RSS]]></title>
             <link>https://connect-platform.github.io/coding-blog-plugin/rss</link>
             <guid>https://connect-platform.github.io/coding-blog-plugin/rss</guid>
-            <pubDate>Wed, 30 Jun 2021 06:38:31 GMT</pubDate>
+            <pubDate>Sat, 26 Feb 2022 08:52:53 GMT</pubDate>
             <content:encoded><![CDATA[You can add RSS to your blog by providing a simple configuration in .codedoc/config.ts: ...]]></content:encoded>
             <author>ghanizadeh.eugene@gmail.com (Eugene Ghanizadeh)</author>
             <enclosure url="https://images.unsplash.com/photo-1485579149621-3123dd979885?w=1990&h=600&fit=crop&crop=top" length="0" type="image//photo-1485579149621-3123dd979885"/>
@@ -81,7 +81,7 @@ nice of you to contact the developer maintaining this project of the situation (
             <title><![CDATA[Coding Blog Plugin | Tags]]></title>
             <link>https://connect-platform.github.io/coding-blog-plugin/tags</link>
             <guid>https://connect-platform.github.io/coding-blog-plugin/tags</guid>
-            <pubDate>Wed, 30 Jun 2021 06:38:31 GMT</pubDate>
+            <pubDate>Sat, 26 Feb 2022 08:52:53 GMT</pubDate>
             <content:encoded><![CDATA[You can add tags to any part of your blog-post, using the inline Tag component: ...]]></content:encoded>
             <author>ghanizadeh.eugene@gmail.com (Eugene Ghanizadeh)</author>
             <enclosure url="https://images.unsplash.com/photo-1577634667308-ee53b03ee1c9?w=1990&h=600&fit=crop" length="0" type="image//photo-1577634667308-ee53b03ee1c9"/>
@@ -90,7 +90,7 @@ nice of you to contact the developer maintaining this project of the situation (
             <title><![CDATA[Coding Blog Plugin | Title]]></title>
             <link>https://connect-platform.github.io/coding-blog-plugin/title</link>
             <guid>https://connect-platform.github.io/coding-blog-plugin/title</guid>
-            <pubDate>Wed, 30 Jun 2021 06:38:31 GMT</pubDate>
+            <pubDate>Sat, 26 Feb 2022 08:52:53 GMT</pubDate>
             <content:encoded><![CDATA[The Title component is useful for the title of the page. It will be shown in a prominent
 manner, will be picked up by CODEDOC's automatic title guessing mechanism, but will not show-up
 in the content navigation list: ...]]></content:encoded>
