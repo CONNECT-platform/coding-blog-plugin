@@ -38,7 +38,7 @@
     "@codedoc/core": ">=0.2.5"
   },
   "devDependencies": {
-    "@codedoc/core": "^0.2.23",
+    "@codedoc/core": "^0.3.2",
     "typescript": "^3.9.2"
   },
   "dependencies": {
